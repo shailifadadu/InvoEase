@@ -18,4 +18,8 @@ export const { handlers, signIn, signOut, auth } = NextAuth({
       from: process.env.EMAIL_FROM,
     }),
   ],
+  //to use our custom routes instead of auth.js predefined routes, we need to add this
+  pages: {
+    verifyRequest: "/verify",
+  },
 });
