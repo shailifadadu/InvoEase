@@ -3,10 +3,13 @@
 import { Loader2 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { useFormStatus } from "react-dom";
+//to render text of submit btn dynamically
+interface iAppProps {
+  text: string;
+}
 
 //as we will use a js bundle, so we need to mark it as use client
-
-export function SubmitButton() {
+export function SubmitButton({ text }: iAppProps) {
   const { pending } = useFormStatus();
 
   return (
@@ -17,7 +20,7 @@ export function SubmitButton() {
         </Button>
       ) : (
         <Button type="submit" className="w-full">
-          Submit
+          {text}
         </Button>
       )}
     </>
