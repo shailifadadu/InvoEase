@@ -16,7 +16,9 @@ datasource db {
 //table user
 model User {
   id            String          @id @default(cuid())
-  name          String?
+  firstName     String?//? indicates optional
+  lastName      String?
+  address       String?
   email         String          @unique
   emailVerified DateTime?
   image         String?
