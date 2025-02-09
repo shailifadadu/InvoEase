@@ -5,6 +5,8 @@ import { parseWithZod } from "@conform-to/zod"; //conform is used for both clien
 import { invoiceSchema, onboardingSchema } from "./utils/zodSchemas";
 import { prisma } from "./utils/db";
 import { redirect } from "next/navigation";
+import { emailClient } from "./utils/mailtrap";
+import { formatCurrency } from "./utils/formatCurrency";
 
 //imp to add use server here
 //we can also write it in inline server component like login
@@ -77,5 +79,30 @@ export async function createInvoice(prevState: any, formData: FormData) {
       userId: session.user?.id, //FK -> one to many relation ship(1-user, many-invoice)
     },
   });
+
+  //Once user creates invoice, send the email
+  const sender = {
+    email: "hello@demomailtrap.com",
+    name: "Shaily Fadadu",
+  };
+
+  emailClient.send({
+    from: sender,
+    to: [{ email: "shailifadadu@gmail.com" }],
+    template_uuid: "b541d249-78fe-456a-8abd-b718bb71f46d",
+    template_variables: {
+      clientName: submission.value.clientName,
+      invoiceNumber: submission.value.invoiceNumber,
+      dueDate: new Intl.DateTimeFormat("en-US", {
+        dateStyle: "long",
+      }).format(new Date(submission.value.date)),
+      totalAmount: formatCurrency({
+        amount: submission.value.total,
+        currency: submission.value.currency as any,
+      }),
+      invoiceLink: "Test_InvoiceLink",
+    },
+  });
+
   return redirect("/dashboard/invoices");
 }
