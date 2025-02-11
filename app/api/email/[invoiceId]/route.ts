@@ -40,8 +40,15 @@ export async function POST(
       from: sender,
       to: [{ email: "shailifadadu@gmail.com" }],
 
-      subject: "Reminder Invoice Payment",
-      text: "Hey you forgot to pay the invoice",
+      template_uuid: "3f5af56b-569e-45a3-9c32-d3d5e0fc0320",
+      template_variables: {
+        first_name: invoiceData.clientName,
+        company_info_name: "InvoEase",
+        company_info_address: "College Road",
+        company_info_city: "Nadiad",
+        company_info_zip_code: "387001",
+        company_info_country: "India",
+      },
     });
 
     return NextResponse.json({ success: true });
