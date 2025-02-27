@@ -1,36 +1,27 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+<h1 align="center">🧾 Invo <b>🅴 🅰 🆂 🅴</b>  - Simplifying Invoicing! </h1>
 
-## Getting Started
+<p align="center">InvoEase is a powerful yet simple invoicing solution designed to help businesses and freelancers manage their invoices efficiently. With an intuitive interface and seamless workflow, InvoEase makes invoice creation and management effortless.</p>
 
-First, run the development server:
+<h2><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Rocket.png" alt="Rocket" width="30" height="30" /> Why InvoEase?</h2>
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+📜 **Easy Invoice Creation** – Generate professional invoices in seconds<br>
+📊 **Real-Time Insights** – Track outstanding and paid invoices easily<br>
+🏦 **Multi-Currency Support** – Send invoices in multiple currencies<br>
+🔒 **Secure and Reliable** – Industry-standard security for your data<br>
+📤 **Export & Share** – Download invoices as PDFs and share via email.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+<h2><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/High%20Voltage.png" alt="High Voltage" width="30" height="30" /> Tech Stack</h2>
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+<p align="center">
+  <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=Next.js&logoColor=088F8F">
+  <img src="https://img.shields.io/badge/Tailwind-CSS-52b5f7?style=for-the-badge&logo=tailwindcss&logoColor=white">
+  <img src="https://img.shields.io/badge/shadcnui-000000?style=for-the-badge&logo=shadcnui&logoColor=088F8F">
+  <img src="https://img.shields.io/badge/postgresql-025E8C?style=for-the-badge&logo=postgresql&logoColor=white">
+  <img src="https://img.shields.io/badge/Mailtrap-%23006f5c.svg?style=for-the-badge&logo=mailtrap&logoColor=FF6719">
+</p>
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+<h2><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Camera%20with%20Flash.png" alt="High Voltage" width="35" height="35"> Preview</h2>
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+![SneakPeek](assets/screenshot2.png)
+![SneakPeek](assets/screenshot3.png)
+![SneakPeek](assets/screenshot1.png)
