@@ -1,7 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
 import Logo from "@/public/logo.png";
-import { buttonVariants } from "@/components/ui/button";
 import { RainbowButton } from "@/components/magicui/rainbow-button";
 
 export function Navbar() {
