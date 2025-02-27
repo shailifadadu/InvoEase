@@ -23,7 +23,7 @@
 <h2><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Camera%20with%20Flash.png" alt="High Voltage" width="35" height="35"> Preview</h2>
 
 <p align="center">
-  <img src="assets/screenshot2.png" alt="SneakPeek" width="400">
-  <img src="assets/screenshot3.png" alt="SneakPeek" width="400">
-  <img src="assets/screenshot1.png" alt="SneakPeek" width="400">
+  <img src="assets/screenshot2.png" alt="SneakPeek" width="500"><br>
+  <img src="assets/screenshot3.png" alt="SneakPeek" width="500"><br>
+  <img src="assets/screenshot1.png" alt="SneakPeek" width="500">
 </p>
