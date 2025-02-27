@@ -18,8 +18,8 @@ export function Hero() {
         </h1>
 
         <p className="max-w-xl mx-auto mt-4 lg:text-lg text-muted-foreground">
-          Creating Invoices can be a pain? InvoEase makes it super easy for you
-          to get paid in time!
+          Struggling with invoice creation? InvoEase simplifies the process,
+          ensuring you get paid on time with ease!
         </p>
 
         <div className="mt-7 mb-12">
